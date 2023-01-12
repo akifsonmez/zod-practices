@@ -1,2 +1,2 @@
 # zod-practices
-Som zod practices, just out of curiosity
+Some zod practices, just out of curiosity
