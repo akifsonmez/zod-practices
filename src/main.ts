@@ -12,7 +12,7 @@ const PersonSchema = z.object({
 
 type Person = z.infer<typeof PersonSchema>
 
-const person1 = { name: "Akif", isAlive: true, gender: "male" };
+const person1 = { name: "Akif", isAlive: true, gender: "male", unwantedProp: "unwantedProp" };
 const person2 = { name: 77 };
 
 
